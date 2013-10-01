@@ -1,0 +1,49 @@
+{
+  "name": "tome-game-entity-lib",
+  "version": "0.0.1",
+  "description": "This is the shared JS lib used by the game Tome.",
+  "author": "Murray M. Moss",
+  "license": "BSD-2-Clause",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "main": "./lib/tome-game-entity-lib.js",
+    "test": "./node_modules/.bin/grunt",
+    "travis-cov": {
+      "threshold": 100
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tome-game/game-entity-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tome-game/game-entity-lib/issues"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-exec": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-coffee-coverage": "*",
+    "grunt-mocha-test": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-browserify": "*",
+    "travis-cov": "*",
+    "mocha": "*",
+    "blanket": "*",
+    "sinon": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "coffee-script": "*"
+  },
+  "dependencies": {
+    "node-uuid": "~1.4.1",
+    "lodash": "~2.2.0",
+    "underscore.string": "~2.3.3",
+    "three": "~0.58.10"
+  }
+}
